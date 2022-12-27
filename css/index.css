@@ -1,0 +1,87 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.wrapper {
+  background: url(image.jpg) no-repeat;
+  height: 100vh;
+  background-size: cover;
+}
+
+.navbar {
+  height: 80px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  width: 70px;
+  padding: 4px 100px;
+}
+
+.navbar ul {
+  float: right;
+  margin-right: 20px;
+}
+
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0px 8px;
+  line-height: 80px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+}
+
+.navbar ul li a:hover {
+  border-radius: 2px;
+  background-color: red;
+}
+
+a.act {
+  background-color: red;
+}
+
+.wrapper .center {
+  position: absolute;
+  top: 40%;
+  left: 33%;
+  user-select: none;
+}
+
+.center h1 {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.center h2 {
+  color: bisque;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.buttons {
+  font-size: 24px;
+  text-align: center;
+}
+
+.but {
+  margin-top: 10px;
+  padding: 7px 15px;
+  border: 1px solid gray;
+  border-radius: 8px;
+}
+
+.but:hover {
+  background-color: gray;
+}
